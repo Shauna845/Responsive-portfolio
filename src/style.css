@@ -1,0 +1,16 @@
+/*font-family: 'Poppins', sans-serif;
+font-family: 'Playfair Display', serif; */
+
+body {
+  background-color: aquamarine;
+  text-align: center;
+}
+h1 {
+  color: purple;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+p {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+}
