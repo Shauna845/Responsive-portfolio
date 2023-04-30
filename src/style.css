@@ -16,10 +16,6 @@ h6 {
   font-weight: bold;
   font-family: var(--heading-font-family);
 }
-p {
-  font-family: var(--heading-font-family);
-  font-weight: normal;
-}
 .hero {
   background-color: var(--front-page-hero-color);
   text-align: center;
@@ -46,4 +42,41 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+h2 {
+  font-size: 64px;
+}
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.7;
+}
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.project-description {
+  padding: 60px 30px 0;
+}
+
+@media (max-width: 900px) {
+  .hero h1 {
+    font-size: 44px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  .hero {
+    padding: 80px 10px;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
